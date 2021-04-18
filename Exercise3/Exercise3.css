@@ -1,0 +1,16 @@
+body
+{
+    background-color: rgb(251, 252, 250);
+    background-image: url(img/Godzilla-king-of-the-monsters-Kong-skull-island-Godzilla-vs-king-kong.jpeg);
+    background-attachment:fixed;
+    background-size:100%;
+    background-position: center;
+}
+
+.textstyle
+{
+    background-color:rgb(143, 25, 35);
+    color:white;
+    font-size:12pt;
+    font-family:fantasy;
+}

@@ -1,0 +1,41 @@
+<html>
+    <title>Exercise 2:Slide Show!</title>
+ <head>
+    <link href="Exercise2.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+     <div class="slideshow-box">
+         <div class="slides">
+             <img src="img/1.png" style="width:100%; height: 100%">
+             <div class="text">Page 1</div>
+         </div>
+         <div class="slides">
+            <img src="img/2.png" style="width:100%; height: 100%">
+            <div class="text">Page 2</div>
+        </div>
+        <div class="slides">
+            <img src="img/3.png" style="width:100%; height: 100%">
+            <div class="text">Page 3</div>
+        </div>
+        <div class="slides">         
+            <img src="img/4.png" style="width:100%; height: 100%">
+            <div class="text">Page 4</div>
+        </div>
+        <div class="slides">
+            <img src="img/5.png" style="width:100%; height: 100%">
+            <div class="text">Page 5</div>
+        </div>
+        <a class="previous" onclick="addSlides(-1)">❮</a>
+        <a class="next" onclick="addSlides(1)">❯</a>
+    </div>
+ 
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+</body>
+    <script type="text/javascript" src = "Exercise2.js"></script>
+</html>
